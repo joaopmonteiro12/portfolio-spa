@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    text-decoration: none;
+}
+
+#container{
+    height: 100vh;
+}
+
+footer{
+    padding: 15px;
+    font-size: 14px;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+.linkedin{
+    width: 30px;
+    height: 30px; 
+}
+
+.codeimg{
+    width: 25px;
+    height: 25px;
+    margin: 7px;
+}
+
+#cv {
+    margin: 9px;
+    align-items: center;
+}
+
+.navbar-toggler {
+    margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+/* Ensure the dropdown menu does not float to the side */
+@media (max-width: 767.98px) {
+    .navbar-collapse {
+        width: 100%; /* Ensure the menu takes up full width on small screens */
+    }
+}
+
+/* Ensure the dropdown menu appears below the navbar */
+
